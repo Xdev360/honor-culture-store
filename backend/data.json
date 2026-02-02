@@ -1,0 +1,281 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Performance Training Tee",
+      "category": "Men's",
+      "price": 49.99,
+      "colors": [
+        "Black",
+        "Navy",
+        "Gray"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80"
+      ],
+      "description": "Breathable moisture-wicking training tee for peak performance. Made with premium fabric technology.",
+      "inventory": 100
+    },
+    {
+      "id": "p2",
+      "name": "Women's Flex Leggings",
+      "category": "Women's",
+      "price": 89.99,
+      "colors": [
+        "Black",
+        "Navy",
+        "Burgundy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
+        "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800&q=80"
+      ],
+      "description": "High-waist compression leggings with 4-way stretch. Perfect for yoga, running, or training.",
+      "inventory": 75
+    },
+    {
+      "id": "p3",
+      "name": "Premium Hoodie",
+      "category": "Men's",
+      "price": 79.99,
+      "colors": [
+        "Black",
+        "Gray",
+        "Olive"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80"
+      ],
+      "description": "Soft fleece hoodie for warmups and cool downs. Features adjustable drawstring hood.",
+      "inventory": 60
+    },
+    {
+      "id": "p4",
+      "name": "Sports Duffle Bag",
+      "category": "Accessories",
+      "price": 69.99,
+      "colors": [
+        "Black",
+        "Navy"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80"
+      ],
+      "description": "Spacious gym bag with separate shoe compartment and water bottle holder.",
+      "inventory": 40
+    },
+    {
+      "id": "p5",
+      "name": "Running Shorts",
+      "category": "Men's",
+      "price": 39.99,
+      "colors": [
+        "Black",
+        "Navy",
+        "Red"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&q=80"
+      ],
+      "description": "Lightweight running shorts with built-in liner and secure zip pocket.",
+      "inventory": 90
+    },
+    {
+      "id": "p6",
+      "name": "Yoga Mat",
+      "category": "Accessories",
+      "price": 54.99,
+      "colors": [
+        "Purple",
+        "Blue",
+        "Pink"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=800&q=80"
+      ],
+      "description": "Premium non-slip yoga mat with carrying strap. 6mm thickness for comfort.",
+      "inventory": 50
+    }
+  ],
+  "admins": [
+    {
+      "username": "admin",
+      "password": "admin123"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "log1769874564612",
+      "action": "LOGIN",
+      "details": {
+        "username": "admin"
+      },
+      "timestamp": "2026-01-31T15:49:24.612Z"
+    },
+    {
+      "id": "log1769944578196",
+      "action": "LOGIN",
+      "details": {
+        "username": "admin"
+      },
+      "timestamp": "2026-02-01T11:16:18.196Z"
+    },
+    {
+      "id": "log1770063860273",
+      "adminId": "system",
+      "action": "ORDER_CREATED",
+      "details": {
+        "orderId": "ORD-1770063860205",
+        "customerEmail": "xbigbrainnx@gmail.com",
+        "total": 179.98
+      },
+      "timestamp": "2026-02-02T20:24:20.273Z"
+    },
+    {
+      "id": "log1770064008843",
+      "action": "LOGIN",
+      "details": {
+        "username": "admin"
+      },
+      "timestamp": "2026-02-02T20:26:48.843Z"
+    },
+    {
+      "id": "log1770064025166",
+      "adminId": "admin",
+      "action": "UPDATE_ORDER",
+      "details": {
+        "orderId": "ORD-1770063860205",
+        "status": "Delivered"
+      },
+      "timestamp": "2026-02-02T20:27:05.166Z"
+    },
+    {
+      "id": "log1770064031610",
+      "adminId": "admin",
+      "action": "UPDATE_ORDER",
+      "details": {
+        "orderId": "ORD-1770063860205",
+        "status": "Pending"
+      },
+      "timestamp": "2026-02-02T20:27:11.610Z"
+    },
+    {
+      "id": "log1770064040494",
+      "adminId": "admin",
+      "action": "UPDATE_ORDER",
+      "details": {
+        "orderId": "ORD-1770063860205",
+        "status": "Processing"
+      },
+      "timestamp": "2026-02-02T20:27:20.494Z"
+    },
+    {
+      "id": "log1770064159276",
+      "adminId": "system",
+      "action": "ORDER_CREATED",
+      "details": {
+        "orderId": "ORD-1770064159258",
+        "customerEmail": "xbigbrainnx@gmail.com",
+        "total": 179.98
+      },
+      "timestamp": "2026-02-02T20:29:19.276Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1770063860205",
+      "orderNumber": "ORD-1770063860205",
+      "items": [
+        {
+          "id": "p2",
+          "name": "Women's Flex Leggings",
+          "price": 89.99,
+          "quantity": 2,
+          "variant": {},
+          "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "xbigbrainnx",
+        "email": "xbigbrainnx@gmail.com",
+        "phone": "+2349134071813",
+        "country": "Nigeria",
+        "state": "lagos",
+        "city": "lagos state",
+        "streetAddress": "17, elhilal estate, akeem salami",
+        "postalCode": "10001"
+      },
+      "paymentInfo": {
+        "cardHolderName": "iuuuiu",
+        "lastFourDigits": "8789"
+      },
+      "total": 179.98,
+      "status": "Processing",
+      "date": "2026-02-02T20:24:20.205Z",
+      "createdAt": "2026-02-02T20:24:20.205Z",
+      "updatedAt": "2026-02-02T20:27:20.493Z"
+    },
+    {
+      "id": "ORD-1770064159258",
+      "orderNumber": "ORD-1770064159258",
+      "items": [
+        {
+          "id": "p2",
+          "name": "Women's Flex Leggings",
+          "price": 89.99,
+          "quantity": 2,
+          "variant": {},
+          "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "xbigbrainnx",
+        "email": "xbigbrainnx@gmail.com",
+        "phone": "+2349134071813",
+        "country": "Nigeria",
+        "state": "lagos",
+        "city": "lagos state",
+        "streetAddress": "17, elhilal estate, akeem salami",
+        "postalCode": "10001"
+      },
+      "paymentInfo": {
+        "cardHolderName": "Oladele  Ibrahim",
+        "lastFourDigits": "4733"
+      },
+      "total": 179.98,
+      "status": "Pending",
+      "date": "2026-02-02T20:29:19.259Z",
+      "createdAt": "2026-02-02T20:29:19.259Z"
+    }
+  ]
+}
