@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import './CartDrawer.css';
 import jsPDF from 'jspdf';
 
+const API_URL = import.meta.env.VITE_API_URL || 'https://honor-culture-store.onrender.com/api';
+
 export default function CartDrawer({ items, onClose, onUpdateQuantity, onRemove }) {
   const [currentStep, setCurrentStep] = useState(1); // 1: Shipping, 2: Payment, 3: Success
   const [shippingData, setShippingData] = useState({
@@ -162,7 +164,7 @@ export default function CartDrawer({ items, onClose, onUpdateQuantity, onRemove 
     if (!validatePaymentForm()) return;
 
     try {
-      const response = await fetch('http://localhost:5000/api/orders', {
+      const response = await fetch(`${API_URL}/orders`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

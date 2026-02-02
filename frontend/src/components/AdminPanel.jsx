@@ -3,7 +3,7 @@ import './AdminPanel.css';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://honor-culture-store.onrender.com/api';
 
 const PRESET_COLORS = [
   { name: 'Black', hex: '#000000' }, { name: 'White', hex: '#FFFFFF' }, { name: 'Navy', hex: '#001F3F' },
