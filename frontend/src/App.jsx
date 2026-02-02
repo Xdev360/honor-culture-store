@@ -8,7 +8,7 @@ import AdminPanel from './components/AdminPanel';
 import FilterPanel from './components/FilterPanel';
 import Footer from './components/Footer';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://honor-culture-store.onrender.com/api';
 
 function App() {
   const [products, setProducts] = useState([]);
